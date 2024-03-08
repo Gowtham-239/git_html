@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="C:\Users\Lenovo\Desktop\New folder\20240128_113947.jpg" />
+  <title>PRACTICE 1 WEEK</title>
+  <style>
+    body{
+      background-color: #dadddf;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin:0;
+      padding: 0;
+      height: 100vh;
+    }
+    .form_container{
+      background-color: rgb(255, 255, 255);
+      border-radius: 8px;
+      border:2px solid rgb(255, 255, 255);
+      padding: 80px;
+      align-content: center;
+      height: 70vh;
+      box-shadow: 2px 3px 1px #525353;
+    }
+    input{
+      padding:0px;
+      width:50vh;
+      box-sizing: border-box;
+    }
+    label{
+      text-align: starting;
+      color: rgb(110, 112, 114);
+    }
+    h1{
+      background-color: hsla(100, 10%, 20%, 0);
+      text-align: center;
+      font-weight: bold;
+    }
+    .sinup_label{
+      text-align: center;
+      color: black;
+    }
+    .atag{
+     font-weight: bold;
+    }
+    .submit input[type="submit"]{
+      background-color: #3498db;
+            color: #fff;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width:100px;
+margin-left:35%;            
+    }
+    .submit input[type="submit"]:hover{
+    background-color: rgb(27, 91, 230);
+    }
+  </style>
+</head>
+<body>
+  <br>
+  <form class="form_container">
+    <h1> LOG IN</h1>
+    <div class="form_group">
+      <div>
+        <label for="FULL NAME "><p>Full Name</p></label>
+        <input type="text" name="Full Name" placeholder="FRIST NAME" required >
+        <input type="text" name="Full Name" placeholder="LAST NAME" required ><br>
+        <label ><p>DATE OF BIRTH</p></label>
+        <input type="DATE"  placeholder="DATE" required ><br>
+        <label ><p>MARRIGE STATUS</p></label>
+        <label for="mm"><p>S</p></label>
+        <input type="radio" name="MARRIGE" value="mm" required >
+        <label for="ss"><p>M</p></label>
+        <input type="radio" name="MARRIGE" value="ss"   required ><br><br>
+
+      </div>
+      <div>
+        <label for="email"><p>Email</p></label>
+        <input type="email" name="email" placeholder="email" required /><br>
+      </div>
+      <div>
+        <label for="mobile number"><p>Mobile number</p></label>
+        <input type="number" name="mobile number" placeholder="mobile number" required /><br>
+      </div>
+      <div>
+        <label for="password"><p>Password</p></label>
+        <input type="password" name="password" placeholder="password" required/><br><br>
+      </div>
+    </div>
+    <div class="submit">
+      <input type="submit" value="log in"  /><br><br>
+    </div>
+      <label class="sinup_label">Don't have an account?</label>
+      <a class="atag" href="1%20week.html">SIN UP</a>
+  </form>
+</body>
+</html>
